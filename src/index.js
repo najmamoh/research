@@ -12,9 +12,7 @@ import { BrowserRouter,Router ,Route} from 'react-router-dom'
 ReactDOM.render(
   // <BrowserRouter>
   <React.StrictMode>
-  <Router basename={process.env.PUBLIC_URL}>
     <App />
-  </Router>,
     </React.StrictMode>,
 document.getElementById('root')
 
