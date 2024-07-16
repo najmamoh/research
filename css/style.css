@@ -1628,6 +1628,7 @@ font-weight: bold;
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .card-img {
@@ -1874,3 +1875,8 @@ margin: 60px;
     flex: 1 1 100%; /* Full width on small screens */
   }
 }
+
+/* .serviceimg img{
+  width: 50%;
+  height: 5%;
+} */
