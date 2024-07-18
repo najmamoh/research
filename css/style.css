@@ -545,26 +545,7 @@ a:focus {
       font-size: 35px;
   }
 }
-.text-center .card {
-  width:  75%;
-  padding: 5%;
-}
-.text-center img{
-  width: 100%;
-}
 
-
-
-.text-center .icon{
-  font-size: 50px;
-}
-.text-center span{
-  font-size: 20px;
-}
-.content-column p {
-  line-height: 2.5; /* Adjust the value for desired line spacing */
-font-weight: bold;
-}
 
 /*******************************/
 /********** Fact CSS ***********/
@@ -1611,24 +1592,46 @@ font-weight: bold;
     font-size: 16px;
   }
 }
+/* Pollcontact */
+#Reports.card {
+  width:  75%;
+  padding: 5%;
+}
+.text-center img{
+  width: 100%;
+}
+.text-center p{
+  
+}
 
-
-/*                     */
-.card .titel{
+ .card .titel{
 font-size: 25px;
 font-weight: bold;
 
 }
-.card .text{
+
+/* SERVICE */
+.service .card .titel{
+  font-size: 25px;
+  font-weight: bold;
+  
+  }
+  /* .service .card{
+    height: 50%;
+  } */
+  /* .service .card img{
+   width: 5%;
+   height: 5%;
+  } */
+.service .card .text{
   font-size: 15px;
   margin-top: 20px;
 
 }
-.card {
+.service .card {
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .card-img {
@@ -1636,6 +1639,10 @@ font-weight: bold;
   border-bottom-left-radius: 15px;
   object-fit: cover;
 }
+.Card.Img img{
+  width: 5%;
+  height: 5%;
+} 
 
 .card-title {
   font-size: 1.25rem;
@@ -1813,7 +1820,7 @@ font-weight: bold;
   flex-wrap: wrap;
   gap: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin: 60px;
+margin: 0px;
 }
 
 /* Style for form labels */
@@ -1875,8 +1882,3 @@ margin: 60px;
     flex: 1 1 100%; /* Full width on small screens */
   }
 }
-
-/* .serviceimg img{
-  width: 50%;
-  height: 5%;
-} */
