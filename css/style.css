@@ -1634,14 +1634,16 @@ font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .card-img {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   object-fit: cover;
+  max-height: 150px;
 }
-.Card.Img img{
-  width: 5%;
-  height: 5%;
+/*  */
+.card .Card.Img .img{
+width: 0;
 } 
 
 .card-title {
