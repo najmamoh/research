@@ -1614,6 +1614,7 @@ font-weight: bold;
 
 }
 
+
 /* SERVICE */
 .service .card .titel{
   font-size: 25px;
@@ -1639,25 +1640,7 @@ font-weight: bold;
 }
 
 
-.card-img {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  object-fit: cover;
-  max-height: 150px;
-}
 /*  */
-.card .Card.Img .img{
-width: 0;
-} 
-
-.card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 1rem;
-}
 
 
 
@@ -1912,3 +1895,24 @@ margin: 0px;
   font-weight: bold;
 }
 
+.header-container {
+  /* text-align: center; */
+  padding: 5rem 0 3rem 0;
+  background-color: #f8f9fa; /* Adjust as needed */
+
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.header-line {
+  width: 80%;
+  margin: 0.5rem  0;
+  border: none;
+  border-top: 2px solid #0d6efd; /* Adjust color as needed */
+}
